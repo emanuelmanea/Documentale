@@ -1,0 +1,7 @@
+<dbConn>
+   <url>jdbc:mysql://localhost:3306/documentale</url>
+   <user>root</user>
+   <password>root</password>
+   <driver>com.mysql.jdbc.Driver</driver>
+   <documentBase>c:\test</documentBase>
+</dbConn>
