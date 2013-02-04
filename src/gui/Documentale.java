@@ -85,6 +85,8 @@ import app.SequenceGenerator;
 import com.itextpdf.text.DocumentException;
 import com.toedter.calendar.JDateChooser;
 
+
+
 public class Documentale extends JFrame{
 
 	/**
