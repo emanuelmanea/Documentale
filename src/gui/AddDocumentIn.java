@@ -241,7 +241,7 @@ public class AddDocumentIn extends JDialog {
 					public void actionPerformed(ActionEvent arg0) {
 						docIn.setOggetto(textFieldOggetto.getText());
 						if(!verify.isAdequateIn(docIn)){
-							JOptionPane.showMessageDialog(null,"Verifica la data $debug", "Errore", JOptionPane.ERROR_MESSAGE);
+							JOptionPane.showMessageDialog(null,"Verifica la data", "Errore", JOptionPane.ERROR_MESSAGE);
 							return;
 						}
 						
