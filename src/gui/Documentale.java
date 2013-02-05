@@ -85,12 +85,9 @@ import app.SequenceGenerator;
 import com.itextpdf.text.DocumentException;
 import com.toedter.calendar.JDateChooser;
 
-
-
 public class Documentale extends JFrame{
 
-	/**
-	 * 
+	/** 
 	 */
 	private static final long serialVersionUID = 1L;
 	private JFileChooser fileChooser;
@@ -141,7 +138,7 @@ public class Documentale extends JFrame{
 	private JComboBox comboBoxMittente;
 	private JComboBox comboBoxModalitaOut;
 	private JComboBox comboBoxTipoOut;
-	private String[] modalita = {"FAX","POSTA","RACCOMANDATA"};
+	private String[] modalita = {"RACCOMANDATA","FAX","EMAIL","PEC","POSTA","A MANO"};
 	private String[] tipo = {"FATTURA","RICEVUTA","VARI"};
 	private List<String> mittenteList = null;
 	private List<String> destinatarioList;
