@@ -37,26 +37,6 @@ import com.itextpdf.text.pdf.PdfWriter;
 @Root
 public class Scanner   {
 	
-//	public static void main(String args[]){
-//		Scanner scan = new Scanner();
-//		scan.deSerialize("scanner.xml");
-//		System.out.print(scan);
-//		try {
-//			FileOutputStream out = new FileOutputStream("test.pdf");
-//			out.write(scan.example());
-//			out.close();
-//		}
-//		catch (FileNotFoundException e) {
-//			e.printStackTrace();
-//		} catch (TwainException e) {
-//			e.printStackTrace();
-//		} catch (IOException e) {
-//			e.printStackTrace();
-//		} catch (DocumentException e) {
-//			e.printStackTrace();
-//		}
-//	}
-	
 	@Element
 	private boolean adf;
 

@@ -306,11 +306,6 @@ public class AddDocumentOut extends JDialog {
 	
 	private void initDocument(){
 		docOut = new Documentout();
-		
-		//docOut.setIddocumentout(seq.documentOutID(docOut, ente, em));
-		//docOut.setNoprotocollo(seq.documentOutNoProtocollo(docOut, ente, em));
-		//docOut.setCodiceprotocollo("U" + docOut.getNoprotocollo());
-		
 		docOut.setEnte(ente);
 	}
 	protected void initDataBindings() {

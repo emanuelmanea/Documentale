@@ -38,17 +38,6 @@ public class DbConn {
 		return "URL:" + url + "\nUSER:" + user + "\nPASSWORD:" + password + "\nDRIVER:" + driver;
 	}
 	
-	/*
-	public static void main(String args[]){
-		DbConn conn = new DbConn();
-		
-		conn.deSerialize("DbConn.xml");
-		
-		System.out.print(conn);
-	}
-	*/
-	
-	
 	public void serialize(String file){
 		try {
 			Serializer serializer = new Persister();
